@@ -137,11 +137,14 @@ const reverseString = (invert) => {
     let invertED = ""
     for (let i = invert.length - 1; i >= 0; i--) {
         invertED = invertED + invert[i]
-        return invert
+
+
+
     }
+    return invertED
 }
 
-
+console.log(reverseString("holaaaa"))
 
 
 
@@ -151,6 +154,11 @@ const reverseString = (invert) => {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+
+
+
+
 
 /* ESERCIZIO 9
  Scrivi una funzione di nome "cutString", che riceve come parametro una stringa. La funzione deve creare una nuova stringa senza il primo e l'ultimo carattere
